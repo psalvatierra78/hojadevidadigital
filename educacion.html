@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Hoja de Vida Digital</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  
+</head>
+
+<body>
+  
+<div class="container" style="background: #00bff0"><a href="index.html"><img src="images/logo.svg" width="15%" height="10%" title="logo"></a>
+<h1 align="center" style="color: #ffffff" >Resumen</h1>
+</div>
+
+<div class="container"style="background: #eeeeee">
+  <h2 class="">Datos Personales:</h2>
+</div>
+
+
+<div class="container bg-success">
+  <h3 style="color: #ffffff">Nombres: Pablo Ezequiel</h3>
+  <h3 style="color: #ffffff">Apellido: Salvatierra</h3>
+  <h3 style="color: #ffffff">Fecha de N: 19 de Mayo de 1978</h3>
+  <h3 style="color: #ffffff">Lugar de N: San Miguel de Tucuman-Argentina</h3>
+</div>
+
+<div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Menu</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Datos</a></li>
+              <li><a href="experiencia.html">Experiencia</a></li>
+              <li><a href="educacion.html">Educacion</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+ </div>
+
+<div class="container">
+  <h2>Educacion:</h2>
+
+
+<div class="table table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Año</th>
+                <th>Institucion</th>
+                <th>Lugar</th>
+                <th>Culminado?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2006</td>
+                <td>Academia 
+                Nacional de Bomberos - Of Instructor</td>
+                <td>Capital Federal</td>
+                <td>Si</td>
+              </tr>
+              <tr>
+                <td>2006</td>
+                <td>Alfredo Angeli - Hig. & Seg. Laboral</td>
+                <td>Cordoba</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td>2013</td>
+                <td>UTN - Tecnico en Informatica</td>
+                <td>Tucuman</td>
+                <td>Si</td>
+              </tr>
+               <tr>
+              	<td>2018</td>
+                <td>Next University - Desarrollo Web</td>
+                <td>On Line</td>
+                <td>Si</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </div>
+
+<div class="container">
+  <h2>Agregar Estudio:</h2>
+       <form class="form-horizontal">
+       <div class="form-group">
+				<label for="anio" class="col-sm-1 control-label">Año</label>
+				<div class="col-sm-3">
+				 <select class="form-control" id="anio" name="anio" required>
+					<option value="">-- Seleccione el año --</option>
+					<option value="1">2000</option>
+					<option value="0">2001</option>
+					<option value="1">2002</option>
+					<option value="2">2003</option>
+					<option value="3">2004</option>
+					<option value="4">2005</option>
+					<option value="5">2006</option>
+					<option value="6">2007</option>
+					<option value="7">2008</option>
+					<option value="8">2009</option>
+					<option value="9">2010</option>
+					<option value="10">2011</option>
+					<option value="11">2012</option>
+					<option value="12">2013</option>
+					<option value="13">2014</option>
+					<option value="14">2015</option>
+					<option value="15">2016</option>
+					<option value="16">2017</option>
+					<option value="17">2018</option>
+				  </select>
+				</div>
+				</div>
+
+				 <div class="form-group">
+					<label for="nombre_inst" class="col-sm-1 control-label">Institucion</label>
+						<div class="col-sm-3">
+							<input type="text" class="form-control" id="nombre_inst" name="nombre_inst"  required>
+						</div>
+				 </div>
+
+				 <div class="form-group">
+					<label for="lugar" class="col-sm-1 control-label">Lugar</label>
+						<div class="col-sm-3">
+							<input type="text" class="form-control" id="lugar" name="lugar"  required>
+						</div>
+				 </div>
+
+
+			<button type="submit" class="btn btn-primary" id="submit">Enviar</button>
+    </form> 
+</div>
+</br>
+
+
+
+
+
+<footer>
+<div class="container" style="background-color: #00bff0">
+  <h4 class="text-center" style="color: #fbfbfb">Informacion de Contacto</h4>
+            
+<div class="text-center" style="color: #ffffff"><p>Email: <b>salvatierrapablo78@gmail.com </b> | <b> Tel: +591-78809134</b> | Trinidad - Bolivia</p></div>
+</div>     
+</footer>         
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+</body>
+</html>
